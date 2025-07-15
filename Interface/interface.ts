@@ -11,12 +11,12 @@ let persona1: Persona = {
 };
 //console.log('Persona: ', persona1);
 
-let personas: Persona[] = [
+let Personas: Persona[] = [
     {nombre: "Leonardo",edad: 37,esDesarrollador: true},
     {nombre: "Nini",edad: 33,esDesarrollador: false},
     {nombre: "Daniel",edad: 30,esDesarrollador: true}
 ];
-console.log('Personas: ', personas);
+console.log('Personas: ', Personas);
 
 interface Sumar {
     (num1: number, num2: number): number;
