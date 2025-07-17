@@ -1,9 +1,10 @@
-var nombre = "Leo";
-var edad = 37;
-var esDesarrollador = true;
-var mes;
-var variableNull = null;
-console.log("hola, ".concat(nombre));
+"use strict";
+let nombre = "Leo";
+let edad = 37;
+let esDesarrollador = true;
+let mes;
+let variableNull = null;
+console.log(`hola, ${nombre}`);
 console.log('Mes inicial: ', mes);
 mes = 'Julio';
 console.log('Mes actualizado: ', mes);
