@@ -1,9 +1,10 @@
-var variableAny;
+"use strict";
+let variableAny;
 //variableAny = 'Hola!';
 variableAny = 531;
 //variableAny = true;
 console.log('valor variable any: ' + variableAny);
-var variableDesconocida;
+let variableDesconocida;
 variableDesconocida = 'Hola!';
 //variableDesconocida = 531;
 //variableDesconocida = true;
