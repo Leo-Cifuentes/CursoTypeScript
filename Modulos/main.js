@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-var calculator_1 = require("./calculator");
+const calculator_1 = require("./calculator");
 console.log("Operaciones matemáticas con TypeScript");
 console.log("Sumar 53 + 31 = ", (0, calculator_1.suma)(53, 31));
 console.log("Restar 86 - 43 = ", (0, calculator_1.resta)(86, 43));
