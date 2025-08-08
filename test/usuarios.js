@@ -1,0 +1,11 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var classUsuario_1 = require("./classUsuario");
+var user1 = new classUsuario_1.Usuario("Nini", "niyorodriguez@gmail.com", "Fusagasugá");
+var user2 = new classUsuario_1.Usuario("Leonardo", "leocifuentesp@gmail.com", "Bogotá");
+var user3 = new classUsuario_1.Usuario("Diana", "dianitarodriguez@gmail.com", "Cambulos");
+var user4 = new classUsuario_1.Usuario("Daniel", "danielrupe@gmail.com", "Bogotá");
+console.log(user1);
+console.log(user2.getInfo());
+console.log(user3.name);
+console.log(user4.name, user4.email);
